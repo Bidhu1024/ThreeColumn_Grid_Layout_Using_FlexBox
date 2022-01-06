@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .c1, .container .c2, .container .c3 {
+  background-color: #e38826;
+  padding: 32px;
+}
+
+.container .c1 h2, .container .c2 h2, .container .c3 h2 {
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', cursive;
+  padding: 16px 0;
+}
+
+.container .c1 p, .container .c2 p, .container .c3 p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 5px  0 70px 0;
+}
+
+.container .c1 button, .container .c2 button, .container .c3 button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 2px solid #f2f2f2;
+  color: #e38826;
+  cursor: pointer;
+}
+
+.container .c1 button:hover, .container .c2 button:hover, .container .c3 button:hover {
+  color: #f2f2f2;
+  background-color: transparent;
+}
+
+.c2 {
+  background-color: #006970 !important;
+}
+
+.c3 {
+  background-color: #004241 !important;
+}
+/*# sourceMappingURL=style.css.map */
